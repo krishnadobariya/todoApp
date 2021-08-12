@@ -5,7 +5,7 @@ const path = require('path')
 //envirnoment veriable for port number
 require('dotenv').config()
 
-const port = process.env.PORT;
+const port = 8000;
 require('./db/conn');
 const task = require('./model/schema')
 
